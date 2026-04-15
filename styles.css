@@ -1,3 +1,43 @@
+:root {
+    --color-bg: hsl(212, 45%, 89%);
+    --color-card: hsl(0, 0%, 100%);
+    --first-text: hsl(218, 44%, 22%);
+    --secondary-text: hsl(216, 15%, 48%);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-bg);
+    font-family: outfit, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 240px;
+    text-align: center;
+    background-color: var(--color-card);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h1 {
+    color: var(--first-text);
+    font-size: 20px;
+}
+
+p {
+    color: var(--secondary-text);
+    font-size: 15px;
+}
+
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
