@@ -2,43 +2,45 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
+##  Overview
 
-## Overview
+This project is a simple QR code component built to match a provided design as closely as possible.
 
-### Screenshot
+The objective was to practice fundamental HTML and CSS skills, focusing on layout, spacing, and visual accuracy.
+
+---
+
+##  Screenshot
 
 ![Screenshot of my solution](./my-preview.png)
 
-### Links
+---
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+##  Links
 
-## My process
+* Solution URL: https://github.com/maxi1993-tech/qr-code-component
+* Live Site URL: https://maxi1993-tech.github.io/qr-code-component/
 
-### Built with
+---
 
-- Semantic HTML5 markup
-- CSS custom properties (variables)
-- Flexbox
-- Desktop-first workflow
+##  My process
 
-### What I learned
+###  Built with
+
+* HTML5
+* CSS3
+* Flexbox
+* CSS variables
+
+---
+
+###  What I learned
 
 This is my first Frontend Mentor challenge. I have been learning HTML and CSS since February 2026.
 
-I learned how to center an element on the page using Flexbox on the body:
+I learned how to center an element both vertically and horizontally using Flexbox:
 
 ```css
 body {
@@ -49,7 +51,9 @@ body {
 }
 ```
 
-I also learned how to use CSS variables with `:root` to organize colors:
+This approach is simple and reliable for small layouts because it avoids positioning hacks and keeps the layout flexible.
+
+I also learned how to use CSS variables to organize and reuse colors:
 
 ```css
 :root {
@@ -58,18 +62,36 @@ I also learned how to use CSS variables with `:root` to organize colors:
 }
 ```
 
-### Continued development
+This improves maintainability and makes future changes easier.
 
-- Keep practicing Flexbox
-- Learn CSS Grid
-- Improve my skills with media queries
+---
 
-### AI Collaboration
+### Challenges
 
-- Tool used: Claude (Anthropic)
-- Claude guided me step by step without giving direct solutions — asking questions to help me think through each problem myself.
-- This approach helped me understand the "why" behind each CSS property, not just the "what".
+The main challenge was matching the design spacing and proportions closely.
 
-## Author
+Small changes in padding, font size, and element width had a significant visual impact, which required careful iteration and comparison with the original design.
 
-- Frontend Mentor - [@maxi1993-tech](https://www.frontendmentor.io/profile/maxi1993-tech)
+---
+
+###  Continued development
+
+* Continue practicing Flexbox
+* Learn CSS Grid
+* Improve responsive design with media queries
+
+---
+
+###  AI Collaboration
+
+* Tool used: Claude (Anthropic)
+
+Claude guided me through the project by asking questions instead of providing direct solutions.
+I remained responsible for writing the code and making decisions, which helped reinforce my understanding of CSS concepts.
+
+---
+
+##  Author
+
+* Frontend Mentor - https://www.frontendmentor.io/profile/maxi1993-tech
+* GitHub - https://github.com/maxi1993-tech
