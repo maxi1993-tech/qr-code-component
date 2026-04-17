@@ -31,7 +31,7 @@ article {
     justify-content: center;
     align-items: center;
     margin: 0 16px 0 16px;
-    gap: 16px;
+    
     padding-top: 0;
 }
 
@@ -46,12 +46,15 @@ h1 {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    padding-bottom: 16px;
+    font-weight: 900;
 }
 
 p {
     color: var(--secondary-text);
-    font-size: 16px;
+    font-size: 15px;
     margin: 0;
+    font-weight: 500;
 }
 
 footer {
