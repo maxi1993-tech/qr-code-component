@@ -30,14 +30,15 @@ article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px 16px 0 16px;
+    margin: 0 16px 0 16px;
     gap: 16px;
-    padding: 0;
+    padding-top: 0;
 }
 
 img {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 24px;
 }
 
 h1 {
@@ -49,8 +50,12 @@ h1 {
 
 p {
     color: var(--secondary-text);
-    font-size: 15px;
+    font-size: 16px;
     margin: 0;
+}
+
+footer {
+    margin-top: 0;
 }
 
 .attribution {
