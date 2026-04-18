@@ -3,60 +3,67 @@
     --color-card: hsl(0, 0%, 100%);
     --first-text: hsl(218, 44%, 22%);
     --secondary-text: hsl(216, 15%, 48%);
+    --shadow-box: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    --font-family: outfit, sans-serif;
+    --font-size-title: 22px;
+    --font-size-p: 15px;
+    --radius-card: 20px;
+    --radius-img: 10px;
+    --attribution: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     min-height: 100vh;
     background-color: var(--color-bg);
-    font-family: outfit, sans-serif;
+    font-family: var(--font-family);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-article {
-    width: 288px;
+.card {
+    width: 320px;
     text-align: center;
     background-color: var(--color-card);
-    border-radius: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-box);
     padding: 16px 16px 40px 16px;
 }
 
-.text {
-    width: 256px;
+.card-image {
+    border-radius: var(--radius-img);
+    margin-bottom: 24px;
+}
+
+.card-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 16px 0 16px;
     gap: 16px;
-    padding-top: 0;
+    margin: 0 16px;
+}
+
+h1 {
+    font-size: var(--font-size-title);
+    color: var(--first-text);
+}
+
+p {
+    font-size: var(--font-size-p);
+    color: var(--secondary-text);
+
 }
 
 img {
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 22px;
 }
 
-h1 {
-    color: var(--first-text);
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    color: var(--secondary-text);
-    font-size: 15px;
-    margin: 0;
-}
-
-footer {
-    margin-top: 0;
-}
 
 .attribution {
     font-size: 0.6875rem;
@@ -64,5 +71,5 @@ footer {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--attribution);
 }
