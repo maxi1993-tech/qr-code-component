@@ -39,6 +39,7 @@ body {
 
 .card-image {
     border-radius: var(--radius-img);
+    width: 100%;
     margin-bottom: 24px;
 }
 
@@ -52,18 +53,19 @@ body {
 h1 {
     font-size: var(--font-size-title);
     color: var(--first-text);
+    line-height: 120%;
+    
 }
 
 p {
     font-size: var(--font-size-p);
     color: var(--secondary-text);
-
+    line-height: 140%;
 }
 
-img {
-    width: 100%;
+footer {
+    margin-top: 10px;
 }
-
 
 .attribution {
     font-size: 0.6875rem;
