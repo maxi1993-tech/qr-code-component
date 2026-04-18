@@ -35,6 +35,7 @@ body {
     border-radius: var(--radius-card);
     box-shadow: var(--shadow-box);
     padding: 16px 16px 40px 16px;
+    margin: auto;
 }
 
 .card-image {
