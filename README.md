@@ -14,7 +14,7 @@ The objective was to practice fundamental HTML and CSS skills, focusing on layou
 
 ##  Screenshot
 
-![Screenshot of my solution](./my-preview.png)
+![Screenshot of my solution](./screenshot.png)
 
 ---
 
@@ -64,6 +64,8 @@ I also learned how to use CSS variables to organize and reuse colors:
 
 This improves maintainability and makes future changes easier.
 
+I also used `box-sizing: border-box` so that padding is included in the total width of an element, not added on top of it.
+
 ---
 
 ### Challenges
@@ -79,6 +81,7 @@ Small changes in padding, font size, and element width had a significant visual 
 * Continue practicing Flexbox
 * Learn CSS Grid
 * Improve responsive design with media queries
+* Next time, I'll use `.card p` instead of just `p` to keep styles scoped to their component.
 
 ---
 
